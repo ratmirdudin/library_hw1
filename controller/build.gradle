@@ -16,5 +16,4 @@ task startMainClass(type: JavaExec) {
 
     // Enter author's name to pass to the application
     args 'J. K. Rowling'
-
 }

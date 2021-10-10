@@ -4,4 +4,6 @@
 ```shell
 ./gradlew task startMainClass
 ```
-To change the input parameter, open the settings file with the task startMainClass along the path: `controller/build.gradle`
+`Or start program using task panel of Gradle.`
+
+To change the input parameter, open the settings file with the task startMainClass along the path: `controller/build.gradle` .
