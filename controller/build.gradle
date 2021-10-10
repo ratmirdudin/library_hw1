@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 
 dependencies {
     implementation(project(':models'))
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.code.gson:gson:2.8.8'
 }
 
 task startMainClass(type: JavaExec) {
@@ -12,7 +12,7 @@ task startMainClass(type: JavaExec) {
 
     classpath = sourceSets.main.runtimeClasspath
 
-    mainClass = 'com.ratmirdudin.controller.Application'
+    mainClass = 'com.ratmirdudin.controller.Application' as Property<String>
 
     // Enter author's name to pass to the application
     args 'J. K. Rowling'
