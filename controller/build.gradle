@@ -12,7 +12,7 @@ task startMainClass(type: JavaExec) {
 
     classpath = sourceSets.main.runtimeClasspath
 
-    mainClass = 'com.ratmirdudin.controller.Application' as Property<String>
+    mainClass = 'com.ratmirdudin.controller.Application'
 
     // Enter author's name to pass to the application
     args 'J. K. Rowling'
