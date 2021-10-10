@@ -1,0 +1,20 @@
+group 'com.ratmirdudin'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation(project(':models'))
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+
+task startMainClass(type: JavaExec) {
+
+    group = 'launch'
+
+    classpath = sourceSets.main.runtimeClasspath
+
+    mainClass = 'com.ratmirdudin.controller.Application'
+
+    // Enter author's name to pass to the application
+    args 'J. K. Rowling'
+
+}
