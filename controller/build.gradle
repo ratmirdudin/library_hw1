@@ -2,7 +2,7 @@ group 'com.ratmirdudin'
 version '1.0-SNAPSHOT'
 
 dependencies {
-    implementation(project(':models'))
+    implementation project(':models')
     implementation 'com.google.code.gson:gson:2.8.8'
 }
 
